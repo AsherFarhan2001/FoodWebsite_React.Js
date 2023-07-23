@@ -1,0 +1,40 @@
+.cards
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid transparent;
+    box-shadow: 0 0 9px 1px rgb(177 168 60 / 70%);
+    width: 20rem;
+    height: 24rem;
+    background: linear-gradient(to top, #311038, #0a024c);
+}
+
+.cards:hover
+{
+    box-shadow: 0 0 11px 6px rgb(177 168 60 / 70%);
+}
+
+div {
+    display: block;
+}
+.app-container {
+    display: flex;
+    flex-direction: column;;
+}
+
+.cards img
+{
+    width: 185px;
+    height: 126px;
+}
+
+.heading h2{
+    font-style: oblique;
+}
+
+.cards p
+{
+    text-align: center;
+}
