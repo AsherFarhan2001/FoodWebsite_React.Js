@@ -1,0 +1,22 @@
+body{
+  background-image: linear-gradient(to bottom, black, #2a022a);
+  background-attachment: fixed;
+}
+
+.app-container
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.section
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    width: 68rem;
+    height: 25rem;
+}

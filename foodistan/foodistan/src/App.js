@@ -6,8 +6,6 @@ import AvatarImage from './assets/images/avatar.png';
 import ContinentalImage from './assets/images/continental.png';
 import DessertImage from './assets/images/dessert.png';
 import FastfoodImage from './assets/images/fast_food.png';
-import SignInModal from './components/signInModal';
-import React, {useState} from 'react';
 
 
 const App = () => {
@@ -38,6 +36,7 @@ const App = () => {
       <section className='section'>
         {FoodItems.map((items) => (<Cards title = {items.title} image = {items.image} description = {items.description}></Cards>))}
       </section>
+    
     </div>
   )
   

@@ -1,0 +1,136 @@
+.input-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 26rem;
+    height: 23rem;
+    margin-top: -24px;
+
+}
+
+.modal-overlay
+{
+    background-color: #282623;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.input-controls
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-controls
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-wrapper
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    backdrop-filter: blur(15px);
+}
+
+.input-controls input{
+    height: 19px;
+    width: 18rem;
+    padding: 12px 23px;
+    border-radius: 9px;
+    margin-top: 12px;
+    background-color: #393e3e;
+    color: white;
+}
+
+.input-controls .name-label{
+    position: absolute;
+    top: 132px;
+    left: 62px;
+    color: #938686;
+    transition: all 0.2s ease-in;
+}
+
+.input-controls .password-label
+{
+    position: absolute;
+    top: 202px;
+    left: 62px;
+    color: #938686;
+    transition: all 0.2s ease-in;
+}
+
+.form-info
+{
+    display: flex;
+    width: 331px;
+    font-size: 15px;
+    gap: 89px;
+    margin-top: 13px;
+}
+
+.signup
+{
+    color: #2ef72e;
+}
+.signInButton button{
+    width: 20rem;
+    height: 49px;
+    background-color: #2ef72e;
+    border-radius: 9px;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cross-btn
+{
+    position: relative;
+    left: 24rem;
+    top: 2px;
+    background: transparent;
+    color: white;
+}
+
+.input-controls input::placeholder
+{
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+
+.input-controls input:focus::placeholder
+{
+    opacity: 1;
+}
+
+.input-controls input:focus + .name-label
+{
+    position: absolute;
+    top: 110px;
+    left: 55px;
+    font-size: 12px;
+    background: #282623;
+    color: white;
+
+}
+
+.input-controls input:focus + .password-label
+{
+    position: absolute;
+    top: 182px;
+    left: 55px;
+    font-size: 12px;
+    background: #282623;
+    color: white;
+
+}
